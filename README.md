@@ -35,4 +35,4 @@ You will also see any lint errors in the console.
 
 ![image](https://user-images.githubusercontent.com/30823218/63862361-12f2f580-c9ca-11e9-8525-7b473f3ba88d.png)
 
-**You can find the working project here :point_right: (To be updated)**
+**You can find the working project here :point_right: https://codesandbox.io/s/agitated-sun-jihl0**
