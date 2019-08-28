@@ -1,5 +1,6 @@
 import React from 'react';
-import { List, Datagrid, TextField, EmailField, UrlField } from 'react-admin';
+import { Create, Edit, DisabledInput, SimpleForm, TextInput, List, Datagrid, TextField, EmailField, UrlField } from 'react-admin';
+
 export const UserList = props => (
     <List {...props}>
         <Datagrid rowClick="edit">
@@ -13,4 +14,34 @@ export const UserList = props => (
             <TextField source="company.name" label="Company" />
         </Datagrid>
     </List>
+);
+
+export const UserEdit = props => (
+  <Edit {...props}>
+  <SimpleForm>
+  <DisabledInput source="id" />
+  <TextInput source="name"/>
+  <TextInput source="username"/>
+  <TextInput source="email"/>
+  <TextInput source="address.street" label="Address"/>
+  <TextInput source="phone"/>
+  <UrlField source="website"/>
+  <TextInput source="company.name" label="Company"/>
+  </SimpleForm>
+</Edit>
+);
+
+export const UserCreate = props => (
+  <Create {...props}>
+    <SimpleForm>
+      <DisabledInput source="id" />
+      <TextInput source="name" />
+      <TextInput source="username" />
+      <TextInput source="email" />
+      <TextInput source="address.street" label="Address" />
+      <TextInput source="phone" />
+      <UrlField source="website" />
+      <TextInput source="company.name" label="Company" />
+    </SimpleForm>
+  </Create>
 );

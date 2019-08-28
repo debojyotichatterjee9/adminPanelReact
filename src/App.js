@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Admin, Resource, EditGuesser } from "react-admin";
-import { UserList } from './users';
+import { UserList, UserEdit, UserCreate } from './users';
 import jsonServerProvider from "ra-data-json-server";
 
 const dataProvider =
@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <Admin dataProvider={dataProvider}>
-        <Resource name="users" list={UserList} edit={EditGuesser}/>
+        <Resource name="users" list={UserList} edit={UserEdit} create={UserCreate}/>
       </Admin>
     );
   }
