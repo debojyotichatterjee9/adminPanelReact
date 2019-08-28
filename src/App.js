@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Admin, Resource, EditGuesser } from "react-admin";
-import authProvider from "./authProvider";
 import { UserList, UserEdit, UserCreate } from './users';
+import authProvider from './authProvider'
 import jsonServerProvider from "ra-data-json-server";
 
 const dataProvider =
