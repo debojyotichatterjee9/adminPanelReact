@@ -1,4 +1,4 @@
-## React Admin Panel Example
+## React Admin Panel Example :octocat:
 
 ###### Recently I came across a blog post about React Admin Panel and I was pretty amazed to see how quickly you can build an admin panel with some necessary functionalities.
 
