@@ -1,10 +1,10 @@
 ## React Admin Panel Example
 
-#Recently I came across a blog post about React Admin Panel and I was pretty amazed to see how quickly you can build an admin panel with some necessary functionalities.
+###### Recently I came across a blog post about React Admin Panel and I was pretty amazed to see how quickly you can build an admin panel with some necessary functionalities.
 
-#So, I created this example real quick to see how this works and also can help others to get a  readymade implementation of an Admin Panel.
+###### So, I created this example real quick to see how this works and also can help others to get a  readymade implementation of an Admin Panel.
 
-In the project directory, you can run:
+###### In the project directory, you can run:
 
 ## `npm start`
 Runs the app in the development mode.<br>
